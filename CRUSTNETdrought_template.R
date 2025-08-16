@@ -13,7 +13,7 @@ library(dplyr)
 library(ggplot2)
 
 # Inport Data
-node <- read.csv("data/SC_ACIS_USC00247894_por_precip.csv") # change this to your csv file name
+node <- read.csv("SC_ACIS_USC00247894_por_precip.csv") # change this to your csv file name
 
 #Change data types
 str(node)
